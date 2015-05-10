@@ -1,0 +1,367 @@
+/*painel*/
+
+#painel{
+	border:2px solid #000;
+	width:1000px;
+	height:auto;
+	text-align:center;
+	margin:auto;
+	float:left;
+	padding:20px 0;
+}
+
+/*logo*/
+
+.logo{
+	text-align:center;
+	margin:auto;
+}
+
+/*menu*/
+
+.menu{
+	margin:20px 130px;
+	list-style:none;
+	font-weight:bold;
+	color:#000;
+
+}
+
+.menu li a{
+	cursor:pointer;
+	text-align:center;
+	width:150px;
+	height:20px;
+	color:#000;
+	background-color:#FFD5BF;
+	border:1px solid #000;
+	float:left;
+	margin:0 15px;
+}
+
+.menu li a:hover{
+	border:1px solid #000;
+	background-color:#FFB871;
+}
+
+/*menu*/
+
+#conteudo{
+	clear:both;
+	text-align:left;
+}
+
+/*formulario1, formulario2, formulario3*/
+
+#formulario{
+	text-align:left;
+	color:#000;
+	font-weight:bold;
+	clear:both;
+	padding:50px 0 20px 145px;
+}
+
+#formulario label{
+	width:300px;
+	display:block;
+	float:left;	
+	clear:both;
+
+}
+
+#formulario input{
+	border:2px solid #FFB871;
+	float:left;
+}
+
+#formulario select{
+	border:2px solid #FFB871;
+	float:left;
+}
+
+#formulario textarea{
+	height:80px;
+	border:2px solid #FFB871;
+	width:500px;
+	margin:0 0 20px 0;
+}
+
+#formulario2{
+	text-align:left;
+	color:#000;
+	font-weight:bold;
+	clear:both;
+	padding:20px 0 20px 145px;
+}
+
+#formulario2 label{
+	width:300px;
+	display:block;
+	float:left;	
+	clear:both;
+
+}
+
+#formulario2 input{
+	width:60px;
+	border:2px solid #FFB871;
+	float:left;
+	margin:0 0 0 10px;
+}
+
+#formulario2 select{
+	border:2px solid #FFB871;
+	float:left;
+	margin:0 0 10px 10px;
+}
+
+#formulario2 p{
+	color:#FFF;
+	float:left;
+	margin:0 0 0 8px;
+}
+
+#formulario3{
+	text-align:left;
+	color:#000;
+	font-weight:bold;
+	clear:both;
+	padding:50px 0 20px 145px;
+}
+
+#formulario3 label{
+	width:200px;
+	display:block;
+	float:left;	
+	clear:both;
+
+}
+
+#formulario3 input{
+	border:2px solid #FFB871;
+	float:left;
+}
+
+#formulario3 select{
+	border:2px solid #FFB871;
+	float:left;
+}
+
+#formulario3 textarea{
+	height:80px;
+	border:2px solid #FFB871;
+	width:500px;
+	margin:0 0 20px 0;
+}
+
+#envia_usuarios{
+	margin:0 0 0 300px;
+	cursor:pointer;
+	background-color:#FFD5BF;
+	border:1px solid #000;
+}
+
+/*quantidade participantes*/
+
+#quantidadeparticipantes{
+	display:block;
+}
+
+/*participante*/
+
+#participantes{
+	width:500px;
+}
+
+/*quantidade psicologos*/
+
+#quantidadepsicologos{
+	display:none;
+}
+
+/*psicologo*/
+
+#psicologos{
+	width:500px;
+}
+
+/*botao comeca dinamica, botao calcular, botao apagar*/
+
+#botao_dinamica{
+	display:none;
+}
+
+#comeca_dinamica{
+	margin:0 0 0 400px;
+	cursor:pointer;
+	background-color:#FFD5BF;
+	border:1px solid #000;
+}
+
+#calcular{
+	cursor:pointer;
+	background-color:#FFD5BF;
+	border:1px solid #000;
+	float:left;
+}
+
+#apagar{
+	display:none;
+	cursor:pointer;
+	background-color:#FFD5BF;
+	border:1px solid #000;
+	float:left;
+}
+
+#salvar{
+	cursor:pointer;
+	background-color:#FFD5BF;
+	border:1px solid #000;
+	float:left;
+}
+
+/*h1, h2, h3, h4, h5, h6. h7, p sentimentos*/
+
+#sentimentos{
+	color:#00F;
+	font-size:20px;
+	float:left;
+	clear:both;
+	margin:30px 0 20px 0;
+}
+
+h1{
+	color:#00F;
+	font-size:20px;
+	clear:both;
+	margin:40px 0 0 0;
+}
+
+h2{
+	color:#F00;
+	font-size:18px;
+	float:left;
+	clear:both;
+	margin:30px 0;	
+}
+
+h3{
+	color:#C60;
+	font-size:18px;
+	clear:both;
+	padding:10px 0;
+}
+
+h4{
+	color:#663;
+	font-size:16px;
+	clear:both;
+	padding:20px 0;
+}
+
+h5{
+	color:#060;
+	font-size:16px;
+	clear:both;
+	padding:20px 0 10px 0;
+}
+
+h6{
+	color:#F30;
+	font-weight:bold;
+	font-size:14px;
+	float:left;
+	padding:10px 0;
+}
+
+h7{
+	color:#F00;
+	font-size:14px;
+	float:left;
+	padding:10px 20px 10px 5px;
+}
+
+h8{
+	color:#F30;
+	font-weight:bold;
+	font-size:14px;
+	float:left;
+	clear:both;
+	padding:10px 0;
+}
+
+/*medias*/
+
+#outro_media{
+	display:none;
+}
+
+#social_media{
+	display:none;
+}
+
+#vinculo_media{
+	display:none;
+}
+
+#corpo_media{
+	display:none;
+}
+
+#atividade_media{
+	display:none;
+}
+
+#memoria_media{
+	display:none;
+}
+
+#media_geral{
+	display:none;
+}
+
+/*listar*/
+
+#listar{
+	margin:100px 0 0 145px;
+}
+
+#listar a{
+	color:blue;
+}
+
+#listar a:hover{
+	text-decoration:underline;
+}
+
+#lista strong {
+	color:#FFF;
+}
+
+#dados_completos{
+	display:none;
+}
+
+#fechar{
+	display:none;
+}
+
+/*pesquisar*/
+
+#pesquisar{
+	margin:0 0 0 485px;
+}
+
+/*paginacao*/
+
+#paginacao{
+	text-align:center;
+}
+
+#paginacao a{
+	color:red;
+}
+
+#atual{
+	color:black;
+}

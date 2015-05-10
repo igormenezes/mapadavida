@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*mapadavida*/
+
+#mapadavida{
+	width:1000px;
+	text-align:center;
+	margin:auto;
+}
+
+/*mapadavida*/
+
+/*logo*/
+
+.logo{
+	padding:130px 0 0 0;
+	margin:0 0 30px 40px;
+}
+
+/*logo*/
+
+/*form*/
+
+#verificacao{
+	width:500px;
+	margin:auto;
+	//padding:250px 0;
+	//background-color:#003;
+}
+
+/*label*/
+
+#label{
+	color:#FFF;
+}
+
+#login{
+	margin:0 0 0 7px;
+}
+
+#login, #senha{
+	width:150px;
+	border: 1px solid #FFB164;
+}
+
+#entrar{
+	margin:0 0 0 50px;
+	cursor:pointer;
+	font-family:Verdana, Geneva, sans-serif;
+	width:70px;
+	height:25px;
+	background-color:#FFD5BF;
+	border:1px solid #000;
+}
+
+/*label*/
+
+/*form*/
+
+#esqueceu{
+	font-size:12px;
+	margin:20px 0 0 50px;
+}
+
+#esqueceu a{
+	color:blue;
+}
+
+#esqueceu a:hover{
+	text-decoration:underline;
+}
+}

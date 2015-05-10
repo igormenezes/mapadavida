@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*geral*/
+
+*{
+	margin:0px;
+	padding:0px;
+}
+
+a{
+	cursor:pointer;
+	text-decoration:none;
+}
+
+body{
+	font-family:Verdana, Geneva, sans-serif;
+	background-color:#6FB7FF;
+}
+
+#base{
+	width:1000px;
+	height:auto;
+	margin:auto;
+}
+
+/*geral*/
